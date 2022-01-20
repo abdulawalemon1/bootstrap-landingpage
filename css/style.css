@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +19,13 @@ body{
 }
 .banner{
     height:calc(100vh-80px);
+    min-height: 500px;
 }
-.new-web-design{
-    /* height:100vh; */
+.stop-writing{
+    background: url('/img/background.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.52);
+    background-blend-mode: overlay;
 }
